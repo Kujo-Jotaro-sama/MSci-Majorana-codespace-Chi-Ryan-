@@ -1,0 +1,56 @@
+## Matplotlib stylesheet
+
+# LINES
+lines.linewidth: 1
+lines.markeredgewidth: 0.0
+lines.markersize: 3
+
+# FONT
+font.size: 9
+font.family: sans-serif
+font.sans-serif: Arial
+
+# AXES
+axes.linewidth: 1
+axes.titlesize: 9
+axes.labelsize: 9
+axes.formatter.useoffset: False #Not labeling ticks relative to an offset
+axes.spines.top: True
+axes.spines.right: True
+axes.spines.bottom: True
+axes.spines.left: True
+
+# TICKS
+xtick.top: True
+xtick.labeltop: False
+xtick.major.size: 3
+xtick.major.width: 1
+xtick.labelsize: 9
+xtick.direction: in
+xtick.minor.visible: False
+xtick.minor.top: False
+xtick.minor.bottom: False
+
+ytick.right: True
+ytick.labelright: False
+ytick.major.size: 3.0
+ytick.major.width: 1.0
+ytick.labelsize: 9
+ytick.direction: in
+ytick.minor.visible: False
+ytick.minor.left: False
+ytick.minor.right: False
+
+# LEGEND
+legend.fontsize: 9
+
+# FIGURE
+figure.titlesize: 9
+figure.figsize: 3.5, 2.5
+figure.dpi: 150
+savefig.dpi: 200
+#savefig.format: 'png'
+savefig.format: 'svg'
+figure.autolayout: True
+
+

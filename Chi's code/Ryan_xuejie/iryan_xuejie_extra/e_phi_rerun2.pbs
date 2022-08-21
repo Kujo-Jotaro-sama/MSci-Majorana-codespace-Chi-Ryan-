@@ -1,0 +1,9 @@
+#PBS -l walltime=24:00:00
+#PBS -l select=1:ncpus=8:mem=6gb
+#PBS -J 0-14
+
+module load anaconda3/personal
+source activate project-3dti
+
+cd $PBS_O_WORKDIR
+python HPC_3DTI_induced_gap_extra_2.py

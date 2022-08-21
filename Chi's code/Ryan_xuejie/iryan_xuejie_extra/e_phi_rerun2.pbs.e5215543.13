@@ -1,0 +1,6 @@
+Loading anaconda3/personal
+  Loading requirement: fix_unwritable_tmp fix_setxattr
+Traceback (most recent call last):
+  File "/rds/general/user/cz6318/home/iryan_xuejie_extra/HPC_3DTI_induced_gap_extra_2.py", line 2, in <module>
+    import peierls
+ModuleNotFoundError: No module named 'peierls'
